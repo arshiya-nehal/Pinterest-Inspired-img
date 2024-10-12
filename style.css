@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(199, 250, 82);
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+.main{
+    /* border: 2px solid black; */
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    
+}
+#navbar{
+    /* border: 2px solid black; */
+    /* height: 20px;
+    width: 200px;
+margin-top: 50px;*/
+margin-left: 50px; 
+font-size: 23px;
+
+}
+.nav{
+    padding-right: 100px;
+     height: 20px;
+    width: 700px; 
+   font-size: 25px;
+   font-weight: 400;
+    /* margin-left: 700px; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.head1{
+justify-content: space-between;
+}
+.img{
+    height: 90px;
+    width: 450px;
+    border-radius: 100px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    background-image: url(https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+background-size: cover;
+}
+.mid
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#head{
+    
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 250px;
+    line-height: 200px;
+
+}
+.para{
+    width:500px;
+    font-size: 20px;
+    margin-top: 90px;
+    font-weight: 400;
+    /* margin-right: 80px; */
+    
+    line-height: 25px;
+    
+    
+}
+
+.bottom{
+    height: 800px;
+    width: 1500px;
+    background-color: blueviolet;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+   margin-left: 90px;
+   margin-top: 80px;
+   background-image: url(https://images.unsplash.com/photo-1722868453561-ef06ed0ec380?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    
+}
+
